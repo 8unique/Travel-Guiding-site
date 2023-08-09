@@ -1,0 +1,43 @@
+$light: #fbfdff;
+$light-accent: #ededed;
+
+$dark: #0f1821;
+$dark-accent: #70717b;
+
+$primary: #6347f9;
+$secondary: #ff6b72;
+$secondary-accent: #ffd5d8;
+
+$error: #e63333;
+$success: #42f480;
+$warning: #fbb947;
+
+$text: #1f3347;
+
+$font-primary: "Nominee", sans-serif;
+$font-secondary: "Canela", serif;
+
+$mobile_res: 992px;
+
+$boxShadow1: 0px 5px 25px -5px rgba($secondary, 0.5);
+$boxShadow2: 0px 5px 25px -5px rgba($primary, 0.5);
+$boxShadow3: 0 5px 120px rgba($dark, 0.025), 0 10px 60px rgba($dark, 0.05);
+$boxShadow4: 0 5px 30px -5px rgba($dark, 0.2);
+
+:root {
+  --light: #{$light};
+  --light-accent: #{$light-accent};
+
+  --dark: #{$dark};
+  --dark-accent: #{$dark-accent};
+
+  --error: #{$error};
+  --success: #{$success};
+  --warning: #{$warning};
+
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+  --secondary-accent: #{$secondary-accent};
+
+  --text: #{$text};
+}

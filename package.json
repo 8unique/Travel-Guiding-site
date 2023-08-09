@@ -1,0 +1,54 @@
+{
+  "name": "travel-guide",
+  "version": "1.0.6",
+  "private": true,
+  "dependencies": {
+    "@heroicons/react": "^2.0.12",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "axios": "^1.1.2",
+    "firebase": "^9.14.0",
+    "google-map-react": "^2.2.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-geocode": "^0.2.3",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "react-simple-star-rating": "^5.1.7",
+    "react-spring": "^9.5.5",
+    "react-toastify": "^9.0.8",
+    "react-tooltip": "^4.5.1",
+    "redux": "^4.2.0",
+    "sass": "^1.55.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
